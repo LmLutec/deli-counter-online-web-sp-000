@@ -23,7 +23,7 @@ def now_serving(deli)
     
     deli.each do |line| 
        deli.shift 
-    puts "Currently serving #{deli}."
+    puts "Currently serving #{line}."
   end 
   end 
 end 
